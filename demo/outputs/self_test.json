@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "torch": "2.0.1+cu118",
+  "results": [
+    {
+      "name": "space_guard",
+      "status": "pass",
+      "free_gb": 2990.17
+    },
+    {
+      "name": "natten_indices",
+      "status": "pass",
+      "dilation_2": "pass"
+    },
+    {
+      "name": "natten_forward_backward",
+      "status": "pass",
+      "device": "cuda",
+      "shape": [
+        2,
+        21,
+        32
+      ],
+      "short_sequence_padding": "pass"
+    }
+  ]
+}

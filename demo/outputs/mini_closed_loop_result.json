@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "scope": "one nuPlan mini closed-loop non-reactive scenario; not a benchmark reproduction",
+  "planner": "PlutoPlanner",
+  "scenario_token": "9e30155b8bb55fd9",
+  "scenario_type": "changing_lane_to_left",
+  "log_name": "2021.08.17.16.57.11_veh-08_01200_01636",
+  "score": 0.949783749929454,
+  "metrics": {
+    "ego_progress_along_expert_route": 0.839307999774253,
+    "no_ego_at_fault_collisions": 1.0,
+    "drivable_area_compliance": 1.0,
+    "driving_direction_compliance": 1.0,
+    "ego_is_comfortable": 1.0,
+    "ego_is_making_progress": 1.0,
+    "speed_limit_compliance": 1.0,
+    "time_to_collision_within_bound": 1.0
+  },
+  "runtime_seconds": {
+    "scenario": 31.597669099999997,
+    "planning_step_mean": 0.1967284577181208,
+    "planning_step_median": 0.17665210000000542,
+    "planning_step_std": 0.1101376059457575
+  },
+  "source": "closed_loop_nonreactive_agents_weighted_average_metrics_2026.07.18.08.08.29.parquet"
+}

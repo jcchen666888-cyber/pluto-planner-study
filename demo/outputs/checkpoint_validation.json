@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "checkpoint": "pluto_1M_aux_cil.ckpt",
+  "sha256": "ce60d7c854d10b310c4e1705099d799a6ea008baa4288e668626f4a2f22943e1",
+  "bytes": 51431136,
+  "epoch": 24,
+  "global_step": 179224,
+  "lightning_version": "2.1.0",
+  "state_tensor_count": 438,
+  "parameter_count": 4240589,
+  "missing_keys": [],
+  "unexpected_keys": [],
+  "config": {
+    "num_heads": 4,
+    "num_modes": 12,
+    "history_steps": 21,
+    "future_steps": 80,
+    "cat_x": true,
+    "ref_free_traj": true
+  }
+}

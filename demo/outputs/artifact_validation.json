@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "nuplan_mini": {
+    "database_count": 64,
+    "bytes": 14351183872,
+    "sqlite_quick_check": "ok (all files)"
+  },
+  "maps": {
+    "package_count": 4,
+    "bytes": 1426578580,
+    "sqlite_quick_check": "ok (all map.gpkg files)"
+  },
+  "checkpoint_bytes": 51431136
+}

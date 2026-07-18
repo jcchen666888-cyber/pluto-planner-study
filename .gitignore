@@ -1,0 +1,37 @@
+# Local upstream checkouts (PLUTO has no redistribution license)
+_deps/
+
+# Large, licensed, or reproducible artifacts
+data/
+checkpoints/
+downloads/
+outputs/raw/
+outputs/**/*.nuboard
+outputs/**/*.msgpack.xz
+outputs/**/*.mp4
+demo/outputs/**
+
+# Python / tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+
+# Training artifacts
+wandb/
+lightning_logs/
+tb_logs/
+cache/
+*.ckpt
+*.pth
+*.pt
+
+# Keep compact, reviewed tutorial results
+!demo/outputs/
+!demo/outputs/*.png
+!demo/outputs/*.gif
+!demo/outputs/*.json
+!demo/outputs/*.csv

@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-07-18T08:10:00+08:00",
+  "note": "SHA-256 values are locally observed checksums, not publisher-signed checksums.",
+  "budget": {
+    "plan_gb": 50,
+    "measured_peak_gib": 30.6,
+    "measured_components_gib": {
+      "download_archives_and_mirror_files": 9.028,
+      "extracted_data_and_maps": 14.694,
+      "conda_environment": 6.599,
+      "checkpoint": 0.048,
+      "source_and_compact_outputs": 0.239
+    }
+  },
+  "artifacts": [
+    {
+      "name": "nuplan-maps-v1.0.zip",
+      "source": "https://d1qinkmu0ju04f.cloudfront.net/public/nuplan-v1.1/nuplan-maps-v1.0.zip",
+      "bytes": 971557640,
+      "extracted_bytes": 1426603899,
+      "sha256": "d0310009fa9e8dd88014038336538aca678842c009fbf03fae76ed28f702ffc6",
+      "redistributed": false
+    },
+    {
+      "name": "nuplan-v1.1_mini.zip",
+      "source": "https://d1qinkmu0ju04f.cloudfront.net/public/nuplan-v1.1/nuplan-v1.1_mini.zip",
+      "bytes": 8550100030,
+      "extracted_bytes": 14351209191,
+      "sha256": "a3fe40afd81cc634884f8d0b7ea3604f2e617e365d5c258c61cfdd833c8d987b",
+      "redistributed": false
+    },
+    {
+      "name": "pluto_1M_aux_cil.ckpt",
+      "source_project": "https://github.com/CurryChen77/RIFT",
+      "source_file_id": "1rI_we4zkk3Jk6wr7IzF-nMBnRMJsuOGT",
+      "reason_for_mirror": "The PLUTO README OneDrive link redirected to an organization sign-in after account migration on 2026-07-18.",
+      "bytes": 51431136,
+      "sha256": "ce60d7c854d10b310c4e1705099d799a6ea008baa4288e668626f4a2f22943e1",
+      "validation": "438/438 state tensors loaded strictly; 0 missing; 0 unexpected",
+      "redistributed": false
+    }
+  ],
+  "source_revisions": {
+    "pluto": "b9964b649c660f1f4a971d614c66f5992e24c18a",
+    "nuplan_devkit_v1.2": "ce3c323af01c0d7ec5672f7832ef53f9c679aab0",
+    "reference_blog": "865840c400803693abcf9df2152c2186a4f13bc9"
+  }
+}

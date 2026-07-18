@@ -1,0 +1,45 @@
+name: pluto-study
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - pytorch-cuda=11.8
+  - numpy=1.23.4
+  - scipy
+  - pandas
+  - pyarrow
+  - shapely>=2.0
+  - geopandas>=0.12.1
+  - fiona
+  - pyogrio
+  - rasterio
+  - rtree
+  - sqlalchemy=1.4.27
+  - matplotlib
+  - pillow
+  - pip:
+      - hydra-core==1.1.0rc1
+      - pytorch-lightning==2.0.1
+      - torchmetrics==0.10.2
+      - timm
+      - wandb==0.14.2
+      - tensorboard
+      - numba
+      - rich==13.3.4
+      - imageio[ffmpeg,pyav]
+      - gdown==5.2.0
+      - pyquaternion>=0.9.5
+      - control==0.9.1
+      - casadi
+      - boto3==1.24.59
+      - cachetools
+      - joblib
+      - psutil
+      - retry
+      - tqdm
+      - ujson
